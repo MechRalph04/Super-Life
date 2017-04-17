@@ -1,6 +1,6 @@
 {
   "minecraft:entity": {
-    "format_version": "1.1.0",
+    "format_version": "1.0.6",
     "component_groups": {
       "minecraft:hard_arrow": {
         "minecraft:projectile": {
@@ -18,8 +18,8 @@
             "arrow_effect": {}
           },
           "hitSound": "bow.hit",
-          "power": 1.6,
-          "gravity": 0.05,
+          "power": 20,
+          "gravity": 0.01,
           "uncertaintyBase": 16,
           "uncertaintyMultiplier": 4,
           "anchor": 1,
@@ -35,7 +35,7 @@
         "minecraft:projectile": {
           "onHit": {
             "impact_damage": {
-              "damage": 1,
+              "damage": 10,
               "knockback": true,
               "semirandomdiffdamage": true,
               "destroyonhit": true
@@ -44,8 +44,8 @@
             "arrow_effect": {}
           },
           "hitSound": "bow.hit",
-          "power": 5,
-          "gravity": 0.05,
+          "power": 20,
+          "gravity": 0.01,
           "uncertaintyBase": 16,
           "uncertaintyMultiplier": 4,
           "anchor": 1,
